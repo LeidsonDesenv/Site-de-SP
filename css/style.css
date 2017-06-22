@@ -20,10 +20,12 @@ h1 a:hover{
 
 .place{
 	border-color: #ccc #999 #999 #ccc;
+    width: 660px;
 	border: 1px solid #ccc;
 	margin-bottom: 20px;
 	padding: 10px;
 	background-color: #fff;
+    float:left;    
 }
 
 .place img{
@@ -40,8 +42,28 @@ h1 a:hover{
 	margin: 0;
 }
 
-
-
 .clear {
-	clear: both;
+	overflow: auto;
+}
+.sidenote{
+    width:240px;
+	background: #eee;	
+	padding:10px;
+    float:right;      
+    border: 1px solid #ccc;
+    
+}
+.sidenote h3{
+    font-size: 14px;
+    margin:0;
+}
+.sidenote ol{
+    border: 1px solid #ccc;
+    background-color: #fff;
+}
+.footer{
+    clear:both;  
+    background: #eee;
+    text-align: center;
+    border: 1px solid #ccc;
 }
